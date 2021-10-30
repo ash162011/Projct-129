@@ -1,0 +1,39 @@
+body{
+     background:url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/a32f7e113486673.60376fe4c2536.gif');
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.heading{
+     padding: 10px;
+     font-size: 30px;
+     margin:0px;
+     width: 100%;
+     font-family: 'Lobster Two';
+}
+
+.note{
+     font-size: 23px;
+     color: black;
+}
+
+#song{
+     width:30%;
+     padding: 30px;
+     border-radius: 20px;
+     font-size:30px;
+     color: black;
+}
+
+canvas{
+     border: 5px solid white;
+     border-radius: 20px;
+     animation-name: example;
+     animation-iteration-count: infinite;
+     animation-duration: 2s;
+}
+
+@keyframes example{
+     from{box-shadow: 1px 1px 38px lightseagreen;}
+     to{box-shadow: 1px 1px 38px lightblue;}
+}
